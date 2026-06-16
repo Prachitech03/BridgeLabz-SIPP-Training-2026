@@ -18,6 +18,7 @@ public class CharacterFrequency {
         }
 
         String[][] result = new String[uniqueCount][2];
+        
 
         int index = 0;
         for (int i = 0; i < 256; i++) {

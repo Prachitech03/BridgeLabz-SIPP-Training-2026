@@ -35,10 +35,10 @@ public class The_Coffee_Counter_Chronicles {
 
             System.out.print("Enter quantity: ");
             int quantity = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
 
             double bill = price * quantity;
-            double gst = bill * 0.18; // 18% GST
+            double gst = bill * 0.18; 
             double totalBill = bill + gst;
 
             System.out.println("\n----- BILL -----");

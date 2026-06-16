@@ -8,12 +8,10 @@ public class table_multiplication {
 
         int[] multiplicationTable = new int[10];
 
-        // Store multiplication results
         for (int i = 1; i <= 10; i++) {
             multiplicationTable[i - 1] = number * i;
         }
 
-        // Display multiplication table
         for (int i = 1; i <= 10; i++) {
             System.out.println(number + " * " + i + " = "
                     + multiplicationTable[i - 1]);
